@@ -3,11 +3,9 @@ var webpackConfig = require("./webpack.config.js");
 module.exports = function (config) {
   config.set({
     // Cloud9 specific code:
-    hostname: process.env.IP,
-    port: process.env.PORT,
+    // hostname: process.env.IP,
+    // port: process.env.PORT,
     browsers: ['PhantomJS'],
-    // local code:
-    // browsers: ['Chrome'],
     singleRun: true,
     frameworks: ['mocha'],
     files: [
