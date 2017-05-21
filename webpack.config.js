@@ -43,11 +43,11 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
       },
-      {
-        loader: 'eslint-loader',
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-      },
+      // {
+      //   loader: 'eslint-loader',
+      //   test: /\.jsx?$/,
+      //   exclude: /node_modules/,
+      // },
     ],
   },
   devtool: 'cheap-module-eval-source-map',
