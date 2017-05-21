@@ -1,22 +1,22 @@
-var React    = require("react"),
-    ReactDOM = require("react-dom"),
-    Main     = require("Main"),
-    Timer    = require("Timer"),
-    Countdown = require("Countdown");
-    
-var {
+const React = require('react');
+const ReactDOM = require('react-dom');
+const Main = require('Main');
+const Timer = require('Timer');
+const Countdown = require('Countdown');
+
+const {
     Route,
     Router,
     IndexRoute,
-    hashHistory
-    } = require("react-router");
+    hashHistory,
+    } = require('react-router');
 
-// load Foundation
-require("style!css!foundation-sites/dist/css/foundation.min.css");
+// Load Foundation
+require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
-// app css
-require("style!css!sass!applicationStyles");
+// App css
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
@@ -25,5 +25,5 @@ ReactDOM.render(
       <IndexRoute component={Timer} />
     </Route>
   </Router>,
-  document.getElementById("app")
+  document.getElementById('app'),
   );

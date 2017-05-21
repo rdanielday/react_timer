@@ -1,9 +1,7 @@
-var React = require("react");
+const React = require('react');
 
-var Timer = (props) => {
-    return (
-    <h1>Timer page</h1>
-    );
-};
+const Timer = props => (
+  <h1>Timer page</h1>
+  );
 
 module.exports = Timer;
