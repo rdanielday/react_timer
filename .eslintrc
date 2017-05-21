@@ -27,6 +27,7 @@
       }
     ],
     "no-webpack-loader-syntax": [0],
+    "no-console": [0],
   },
   "extends": ["airbnb-base"],
 }
