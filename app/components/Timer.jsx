@@ -1,6 +1,5 @@
 const React = require('react');
 const Clock = require('Clock');
-const TimerForm = require('TimerForm');
 const Controls = require('Controls');
 
 const Timer = React.createClass({
