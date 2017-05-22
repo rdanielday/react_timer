@@ -11,7 +11,7 @@ module.exports = function (config) {
 		files: [
 			'node_modules/jquery/dist/jquery.min.js',
 			'node_modules/foundation-sites/dist/js/foundation.min.js',
-			'app/tests/**/*.test.jsx'
+			'app/tests/**/*.test.jsx',
 		],
 		preprocessors: {
 			'app/tests/**/*.test.jsx': ['webpack', 'sourcemap']

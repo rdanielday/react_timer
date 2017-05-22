@@ -12,7 +12,6 @@ const {
     } = require('react-router');
 
 // Load Foundation
-require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
 // App css
@@ -26,4 +25,4 @@ ReactDOM.render(
     </Route>
   </Router>,
   document.getElementById('app'),
-  );
+);
